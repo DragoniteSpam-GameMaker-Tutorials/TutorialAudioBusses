@@ -67,6 +67,9 @@ if (keyboard_check(vk_f2)) {
 if (keyboard_check(vk_f3)) {
     audio_emitter_pitch(emitter_bgm, 1.2);
 }
+if (keyboard_check_pressed(vk_f4)) {
+    bus_bgm.bypass = !bus_bgm.bypass;
+}
 
 if (keyboard_check(vk_f5)) {
     audio_emitter_gain(emitter_se, 0.2);

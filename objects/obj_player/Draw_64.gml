@@ -5,6 +5,7 @@ for (var i = 0; i < 3; i++) {
 draw_text(32, 120, "F1 to lower the BGM pitch");
 draw_text(32, 140, "F2 to reset the BGM pitch");
 draw_text(32, 160, "F3 to raise the BGM pitch");
+draw_text(32, 180, "F4 to toggle the Reverb effect on BGM");
 
 draw_text(32, 200, "F5 to lower the SE volume");
 draw_text(32, 220, "F6 to reset the SE volume");
